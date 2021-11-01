@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+</script>
+<script>
+
+$(document).ready(function(){
+  $("#b1").click(function(){
+    $("*").css("background-color", "green");
+  });
+
+ $("#b2").click(function(){
+    $("p").css("background-color", "green");
+  });
+
+});
+</script>
+</head>
+<body>
+
+<h2>jQuery * selector example</h2>
+
+<p>This example is published on beginnersbook.com</p>
+<p>This is another paragraph. It contains some plain text</p>
+
+<button id="b1">Change All</button>
+<button id="b2">Change paragraph</button>
+
+</body>
+</html>
